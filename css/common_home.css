@@ -1,0 +1,377 @@
+
+html, body {
+  font-size: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background: url("../images/gradientBG.gif");
+}
+
+a {
+	text-decoration: none
+}
+
+iframe#lichenLoader {
+	
+	width: 100%;
+	min-width: 600px;
+	height: 65%;
+	border: 1px solid red;
+	
+}
+
+h2.section {
+	
+   font-family: Verdana, Geneva, sans-serif;
+   font-weight: normal;
+   font-size: 1.1em;
+   margin-bottom: 6px
+}
+
+h3.section {
+	
+   font-family: Verdana, Geneva, sans-serif;
+   font-weight: normal;
+   font-size: 1em;
+   margin-top: 2px;
+   margin-bottom: 18px;
+   margin-left: 4px
+}
+
+h3.learn {
+	
+   font-family: Verdana, Geneva, sans-serif;
+   font-weight: normal;
+   font-size: 0.9em;
+   margin-top: 2px;
+   margin-bottom: 8px;
+   margin-left: 4px
+}
+
+ul.rationale {
+	font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: square;
+    
+}
+ul.rationale li {
+	padding-bottom: 4px;
+}
+
+div.gitExplore {
+	
+	padding: 8px;
+	margin-bottom: 28px;
+	width: 310px;
+	height: 164px;
+	border: 3px dashed #E8E8E8;
+	
+}
+
+div.gitExplore p {
+	
+	width: 270px;
+	margin-left: 5px;
+	font-size: 1em;
+}
+
+img.gitLogo {
+	
+	float: right;
+	position: relative;
+	top: 20px;
+	padding-right: 4px;
+}
+
+img.gitSample {
+	
+	float: left;
+	padding-right: 16px;
+}
+
+.lcv {
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+div.viewPort {
+	
+	margin-top: 0px;
+}
+
+input#loader:focus
+{ 
+  background-color:yellow;
+}
+
+blockquote {
+	
+   margin-left: 16px;
+   margin-top: 30px;
+   font-family: Verdana, Geneva, sans-serif;
+   font-weight: normal;
+   font-size: 0.75em;
+}
+div#lichenLogo {
+	
+	position: absolute;
+	top: 46px;
+	z-index: 1;
+	border: 1px dotted black;
+
+}
+
+div#nav {
+
+  position:absolute;
+  width: 100%;
+  height: 30px;
+  top: 86px;
+  
+}
+
+a.nav {
+
+  font-family: Verdana, Geneva, sans-serif;
+  color: black;
+  text-decoration: none
+}
+
+a.nav:hover {
+
+  font-family: Verdana, Geneva, sans-serif;
+  color: red;
+  text-decoration: none
+}
+
+a.activeNav {
+
+  font-family: Verdana, Geneva, sans-serif;
+  color: black;
+  text-decoration: underline
+}
+
+a.activeNav:hover {
+
+  font-family: Verdana, Geneva, sans-serif;
+  color: black;
+  text-decoration: underline
+}
+
+
+div.item {
+
+    margin-left: 80px;
+}
+
+.item h2 {
+
+   font-family: Verdana, Geneva, sans-serif;
+   font-weight: normal;
+   font-size: 1em;
+}
+
+.item a {
+
+   display: block;
+   border: 1px solid black;
+   height: 220px;
+   width: 320px;
+   background: url("../images/hand_circle.jpg");
+}
+
+.item a:hover {
+
+   display: block;
+   border: 1px solid black;
+   height: 220px;
+   width: 320px;
+   background: url("../images/hand_circle_glow.jpg");
+}
+
+.item p {
+
+   font-family: Verdana, Geneva, sans-serif;
+   font-weight: normal;
+   font-size: 0.8em;
+   width: 320px;
+}
+
+div#repoInput {
+
+   width: 100%;
+   margin-left: 10px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   
+}
+
+input#repoURL {
+	
+	border: 1px solid black;
+	width: 410px;
+	font-size: 0.8em;
+	color: #989997
+}
+
+#repoURL:focus {
+	
+	border: 1px solid #B3FA8C;
+	box-shadow: 0 0 5px #B3FA8C;
+    -webkit-box-shadow: 0 0 5px #B3FA8C; 
+    -moz-box-shadow: 0 0 5px #B3FA8C;
+}
+
+input#launchBtn {
+	
+	border: 1px solid #5BCC1D;
+	width: 100px;
+	background: #EDECE8;
+	color: #162433;
+	font-size: 1em
+}
+
+input#launchBtn:hover {
+
+	border: 1px solid #162433
+}
+
+div.about {
+
+	margin-top: 30px;
+	width: 92%;
+	margin-left: 40px;
+	margin-right: 20px;
+	padding:1em 1em 5em; /* bottom padding for footer */
+}
+
+.about p {
+	
+	font-family: Arial, Geneva, sans-serif;
+	font-size: 0.9em;
+	line-height: 140%;
+	margin-left: 0px;
+	margin-right: 22px;
+	margin-top: 14px;
+	padding:0 1em;
+	
+}
+
+.about img {
+	
+	border: 1px solid black;
+	float: right;
+	padding: 4px;
+	margin-left: 18px;
+}
+
+span.highlight {
+	
+	font-weight: bold
+}
+
+div.footer {
+	
+	position: absolute;
+	font-family: Arial, Geneva, sans-serif;
+	font-size: 0.8em;
+	float: right;
+	width: 90%;
+	bottom: 0;
+}
+
+.footer p {
+	
+	width: 100%;
+	text-align: right;
+}
+
+ul.link {
+	
+	font-size: 1em;
+}
+
+hr.proj {
+	width: 100%
+}
+
+div.projects {
+	
+	font-family: Arial, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 0.8em;
+	margin-left: 11%;
+	margin-right: 11%;
+}
+
+div.launch {
+	
+	margin-left: 20px;
+}
+
+#preload {
+	display: none;
+}
+
+#install {
+	
+	position: relative;
+	font-family: Arial, Geneva, sans-serif;
+	top: 50px;
+}
+
+dl.sectionLinks {
+	
+	font-size: 0.8em;
+	margin-left: 4px;
+	margin-top: 4px;
+	margin-bottom: 2px;
+	width: 250px;
+	
+}
+
+dl.sectionLinks dt {
+	
+	padding: 2px;
+	padding-top: 14px;
+}
+
+img.design {
+	
+	float: right;
+	padding: 8px;
+	margin-right: 12px;
+	vertical-align: top;
+}
+
+div.lichenContent p {
+	
+	font-family: Arial, Geneva, sans-serif;
+	margin-top: 10px;
+}
+
+div.lichenContent h3 {
+	
+	font-family: Arial, Geneva, sans-serif;
+	font-size: 0.9em;
+	margin-top: 20px;
+}
+
+div.lichenContent h4 {
+	
+	font-family: Arial, Geneva, sans-serif;
+	font-size: 0.9em;
+	padding-left: 8px;
+	font-style:italic;
+	margin-top: 20px;
+}
+
+div.lichenContent ol {
+	
+	font-family: Arial, Geneva, sans-serif;
+	font-size: 0.9em;
+	font-style:normal;
+	font-weight:bold;
+	margin-top: 20px;
+}

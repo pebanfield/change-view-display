@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <title>Change View</title>
+        <link rel="stylesheet" href="css/style.min.css" type="text/css"/>
+		<script type="text/javascript" src="js/mootools-lib.js"></script>
+		<script type="text/javascript" src="js/PureMVC_JS_2_0_1.js"></script>
+		<script type="text/javascript" src="js/easeljs-0.4.2.min.js"></script>
+		<script type="text/javascript" src="js/cv.js"></script>
+		 <script type="text/javascript">
+
+            /**
+             * ******* Main application Entry ***********
+             * 
+             * ******************************************
+             */
+            window.addEvent('domready', function()
+            {
+                mainView = new cv.view.MainView( document.id('root') );
+
+                var srConfig = new cv.model.ServiceRequestConfig();
+                // srConfig.type = "<c:out value='${param.type}' />";
+                srConfig.domain = "";
+                srConfig.repoPath = "/lichen/repodata/revisions";
+                srConfig.isSecure = false;
+                //srConfig.args = "repoType=gitVCStype&repoPath=<c:out value='${param.method}' />&startRev=<c:out value="${param.startRev}" />&pageSize=<c:out value="${param.pageSize}" />";
+                var sRequestor = new cv.model.ServiceRequestor(srConfig);
+
+                mainView.facade.sendNotification(cv.model.CommandTypes.REQUEST_REV_DATA, sRequestor);
+            });
+
+        </script>
+    </head>
+    <body>
+        <div id="root" class="root">
+          <div class="cvTitle"><h1 id="repoTitle" class="repoHeader"></h1></div>
+          <div class="infoPanel">
+                <h2 id="annotation" class="annotation"></h2>
+                <div class="panelList">
+                    <ul class="rInfoList">
+                        <li class="rInfoItem" id="identifier"></li>
+                        <li class="rInfoItem" id="entriesNum"></li>
+                        <li class="rInfoItem" id="author"></li>
+                        <li class="rInfoDate" id="date"></li>
+                    </ul>
+                </div>
+          </div>
+          <div id="revSelector">
+            <div id="previousBtn"></div><div id="revNumDisplay"></div><div id="nextBtn"></div>
+          </div>
+          <canvas id="stageCanvas"></canvas>
+            <div></div>
+        </div>
+    </body>
+</html>

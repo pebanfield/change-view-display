@@ -1,0 +1,305 @@
+
+html, body {
+  font-size: 100%;
+  width:  1000px;
+  height: 100%;
+  margin: 0px;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  min-width: 1000px;
+  color: #ffffff;
+}
+
+
+div#revGraphContainer {
+	
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	z-index:-1
+}
+
+div#linkLayer {
+	
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+.entryLink {
+	
+	position:absolute;
+	font-size: 12px;
+	font-weight: normal;
+	font-family:Verdana, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #898B8F;
+	z-index: 9;
+	
+}
+
+.entryLink:hover {
+	
+	color: #FA7A11;
+}
+
+.darkEntryLink {
+	
+	position:absolute;
+	font-size: 12px;
+	font-weight: normal;
+	font-family:Verdana, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #ffffff;
+	z-index: 9;
+}
+
+.darkEntryLink:hover {
+	
+	color: #FFFFFF;
+}
+
+div#root {
+   min-width: 600px;
+}
+
+
+h2.annotation {
+	
+    color:#000000;
+    margin-left: 10px;
+    margin-bottom: 12px;
+    font-size:1em;
+    font-weight:normal;
+    font-family: Helvetica, sans-serif;
+    line-height: 180%;
+    width: 320px;
+    white-space: nowrap;
+    
+}
+
+div.infoPanel {
+	
+    position:absolute;
+    top: 54px;
+    left:22px;
+    width: 100%;
+    height: 300px;
+    z-index: 5;
+    
+}
+
+div.infoLeft {
+
+    font-size:0.9em;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    display:inline;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    
+}
+
+dl.eInfoList {
+	
+	position:absolute;
+	top: 150px;
+	font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    margin-bottom: 2px;
+    padding: 2px;
+    display:inline;
+    
+}
+
+dt.eInfoItem{
+	
+	margin-top: 0.8em;
+    font-weight: lighter;
+    list-style: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 2px;
+    width: 200px;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+span.infoLabel {
+	
+	width: 50px;
+    font-weight: bold;
+    padding-bottom: 4px;
+    font-size: 1em;
+}
+
+span.infoValue {
+	
+	overflow: hidden; 
+	width: 20px;
+    text-overflow: ellipsis; 
+    font-weight: normal;
+    padding-bottom: 4px;
+    font-size: 1em;
+}
+
+span.eInfoValue {
+	
+	overflow: hidden; 
+	width: 50px;
+    text-overflow: ellipsis; 
+    font-weight: bold;
+    padding-bottom: 4px;
+    font-size: 1em;
+}
+
+dd#identifier {
+	
+    width: 50px;
+	overflow: hidden;
+    text-overflow: ellipsis; 
+    font-weight: bold;
+}
+
+p#dateInfo {
+	
+	margin-left: 40px
+}
+
+span.rInfoDate {
+	
+    list-style: none;
+    margin-top: 1em;
+    font-weight:lighter;
+    color:#000;
+    font-size:1em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+div#swipeZone{
+	
+	position:absolute;
+	height : 70%;
+	width: 100%;
+	z-index: 5;
+}
+
+div#entryDetails {
+	
+	position:absolute;
+	height: 300px;
+	width: 260px;
+	-moz-border-radius: 6px ;
+	-webkit-border-radius: 6px ;
+	border-radius: 6px ;
+	z-index: 10;
+	background: #F5F2F4;
+	border: 1px solid;
+	border-color: black;
+	visibility:hidden;
+	color: black
+	
+}
+
+div#entryInfo {
+	
+	float: left;
+	width: 200px;
+	left: 10px;
+	top: 5%;
+}
+
+h3#entryTitle {
+	
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 14px;
+	font-weight: lighter;
+	top: 20px;
+	padding-left: 14px;
+	padding-top: 8px;
+	padding-bottom: 0px;
+	color: black
+}
+
+hr#entryLine {
+	
+	position: absolute;
+	top: 34px;
+	left: 14px;
+	width: 226px;
+	padding-top: 2px;
+	padding-left: 8px;
+	border: 1px solid #D4D2D2;
+	height: 1px
+}
+
+div#entryVisuals {
+	
+	position: absolute;
+	top: 56px;
+	left: 10px;
+	width: 240px;
+	height: 100px;
+	color: black
+}
+
+div#closeBtnContainer {
+	
+	position: absolute;
+	width: 4px;
+	top: 6px;
+	left: 240px;
+	padding-top: 4px;
+	padding-right: 8px;
+	
+	
+}
+
+a#closeBtn {
+	
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 1em;
+	color: black;
+	text-decoration: none;
+	border: 1px dotted black;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+div#codeDisplay {
+	
+	position: absolute;
+	right: 8px;
+	float: right;
+	top: 5%;
+	width: 70%;
+	height: 93%;
+	overflow-y: hidden;
+    overflow-x: hidden;
+    border: 1px solid;
+    border-color: #ADAAAB
+}
+
+div#preload { display: none; }
+
+div#loading { 
+	
+	position:absolute;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 1em;
+	height: 20px;
+	width: 100px;
+	text-align: center;
+	visibility: hidden;
+	z-index: -1;
+	
+
+}

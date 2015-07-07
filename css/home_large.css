@@ -1,0 +1,169 @@
+
+@media (min-width: 1061px) {
+
+	.contact {
+	
+	    margin-top: 50px;
+	    width: 100%;
+	}
+	
+	.contactList {
+	
+		text-align: left;
+		
+	}
+	
+	.contactItem {
+		
+		font-family: Arial, Geneva, sans-serif;
+		font-size: 0.8em;
+		text-align: left;
+		padding: 12px;
+	}
+
+	div#contentContainer {
+	
+	    position: relative;
+	    width: 86%;
+	    height:auto !important; /* real browsers */
+        min-height: 100%;
+        height: 100%;
+	    background: white;
+	    min-width: 700px;
+	    max-width: 1000px;
+	    margin: 0 auto;
+	}
+	div#homeHeader {
+		
+	    padding: 0px;
+	    margin-left: 0px;
+		width: 100%;
+		height: 180px;
+		max-width: 1000px;
+		min-width: 700px;
+	}
+	
+	div#headerBg {
+	
+		position: absolute;
+		top: 80px;
+		height: 1px;
+		width: 100%;
+		max-width: 1000px;
+		background: white;
+		border-bottom: 1px solid black;
+		box-shadow: 2px 2px 4px #E6E3E4;
+		z-index: 0;
+		
+	}
+	
+	div#homeContent {
+	  
+	    text-align: left;
+		width: 100%;
+		top: 180px;
+		padding-bottom: 400px;
+	}
+	
+	ul#navItems {
+	   
+	     width: 90%;
+	     top: 0px;
+	     height: 30px;
+	     white-space:nowrap;
+	     min-width: 400px;
+	     list-style: none;
+	     margin: 0;
+	     padding: 0;
+	     float: right;
+	}
+	
+	#navItems li {
+	    float: right;
+	    font-family: Verdana, Geneva, sans-serif;
+	    text-align: right;
+	    font-size: 0.8em;
+	    padding: 4px 4% 0px 4%;
+	}
+	  
+	div#homeContent {
+	  
+	    text-align: left;
+		width: 100%;
+		top: 160px;
+	}
+	
+	div#dividerContainer {
+	
+	    width: 5%;
+	    margin-top: 60px;
+	    float: left;
+	}
+	
+	div#divider {
+	
+	    height: 140px;
+	    width: 50%;
+	    background: white;
+	    border-right: 1px dotted black; 
+	}
+	
+	div#contentLeft {
+		
+		float: left;
+		width: 50%; 
+		max-width: 400px;
+	}
+	
+	div#contentRight {
+		
+		float: left;
+		width: 46%;
+	}
+	div.lichenLeft {
+		
+		float: left;
+		width: 55%; 
+	}
+	
+	div.lichenRight {
+		
+		float: right;
+		width: 40%;
+	}
+	
+	div.lichenContent {
+	
+	    clear: both;
+	    
+	    margin-left: 20px;
+	    top:50px;
+	}
+	
+	div.intro {
+	
+	  font-family: Verdana, Geneva, sans-serif;
+	  font-weight: normal;
+	  font-size: 1em;
+	  margin-top: 10px;
+	  margin-left: 10px;
+	}
+	
+	.intro li {
+	  font-family: Verdana, Geneva, sans-serif;
+	  font-weight: normal;
+	  font-size: 0.8em;
+	  list-style-type:square
+	}
+	
+	.intro p {
+	
+	  font-family: Arial, Geneva, sans-serif;
+	  font-weight: normal;
+	  font-size: 0.8em;
+	  margin-left: 20px;
+	  margin-top: 50px;
+	  width: 80%;
+	}
+	
+}

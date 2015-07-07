@@ -1,0 +1,142 @@
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px)
+and (max-width : 480px){
+
+	.contact {
+	
+	    margin-top: -50px;
+	    margin-left: 62px;
+	    width: 100%;
+	}
+	
+	.contactList {
+	
+		text-align: left;
+		
+	}
+	
+	.contactItem {
+		
+		font-family: Arial, Geneva, sans-serif;
+		font-size: 0.8em;
+		text-align: left;
+		padding: 12px;
+	}
+	
+    div#contentContainer {
+
+	    position: relative;
+	    width: 86%;
+	    height:auto !important; /* real browsers */
+	    min-height: 100%;
+	    background: white;
+	    margin: 0 auto;
+    }
+	div#homeHeader {
+		
+		position: relative;
+	    padding: 0px;
+	    margin-left: 0px;
+		width: 90%;
+		height: 150px;
+	}
+	
+	div#headerBg {
+	
+		position: absolute;
+		top: 80px;
+		height: 1px;
+		width: 100%;
+		background: white;
+		border-bottom: 1px solid black;
+		box-shadow: 2px 2px 4px #E6E3E4;
+		z-index: 0;
+		
+	}
+
+	ul#navItems {
+	   
+	     width: 100%;
+	     top: 0px;
+	     height: 30px;
+	     white-space:nowrap;
+	     list-style: none;
+	     margin: 0;
+	     padding: 0;
+	}
+	
+	#navItems li {
+	    float: right;
+	    font-family: Verdana, Verdana, Geneva, sans-serif;
+	    text-align: right;
+	    font-size: 0.8em;
+	    padding: 2px 1% 0px 1%;
+	}
+	  
+    div#homeContent {
+    
+	    text-align: left;
+		width: 90%;
+		top: 130px;
+		padding-bottom: 100px;
+	}
+	
+	div#dividerContainer {
+	
+	    width: 0px;
+	}
+	
+	div#divider {
+	
+	    height: 0px;
+	    width: 0px;
+	    visibility: hidden
+	}
+	
+	div#contentLeft {
+		
+		width: 100%; 
+	}
+	
+	div#contentRight {
+		
+		width: 100%;
+	}
+	
+	div.intro {
+	
+	  font-family: Verdana, Verdana, Geneva, sans-serif;
+	  font-weight: normal;
+	  font-size: 1em;
+	  margin-top: 4px;
+	  margin-left: 4px;
+	}
+	
+	.intro li {
+	  font-family: Verdana, Verdana, Geneva, sans-serif;
+	  font-weight: normal;
+	  font-size: 0.8em;
+	  list-style-type:square
+	}
+	
+	.intro p {
+	
+	  font-family: Arial, Geneva, sans-serif;
+	  font-weight: normal;
+	  font-size: 0.8em;
+	  margin-left: 4px;
+	  margin-top: 4px;
+	  width: 80%;
+	}
+	
+	.item img {
+	
+	  max-width: 100%;
+	  height: auto;
+	  width: auto\9; /* ie8 */
+	  border: 1px solid black
+	}
+	
+}

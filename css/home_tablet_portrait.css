@@ -1,0 +1,148 @@
+
+@media only screen
+and (min-width: 481px)
+and (max-width: 1060px){
+	
+	.contact {
+	
+	    margin-top: -50px;
+	    margin-left: 62px;
+	    width: 100%;
+	}
+	
+	.contactList {
+	
+		text-align: left;
+		
+	}
+	
+	.contactItem {
+		
+		font-family: Arial, Geneva, sans-serif;
+		font-size: 0.8em;
+		text-align: left;
+		padding: 12px;
+	}
+	
+    div#contentContainer {
+
+	    position: relative;
+	    width: 86%;
+	    height:auto !important; /* real browsers */
+	    min-height: 100%;
+	    background: white;
+	    min-width: 401px;
+	    margin: 0 auto;
+    }
+	div#homeHeader {
+		
+	    padding: 0px;
+	    margin-left: 0px;
+		top: 20px;
+		width: 100%;
+		height: 170px;
+		max-width: 1000px;
+		min-width: 401px;
+	}
+	
+	div#headerBg {
+	
+		position: absolute;
+		top: 80px;
+		height: 1px;
+		width: 100%;
+		max-width: 1000px;
+		background: white;
+		border-bottom: 1px solid black;
+		box-shadow: 2px 2px 4px #E6E3E4;
+		z-index: 0;
+		
+	}
+	
+	  ul#navItems {
+	   
+	     width: 90%;
+	     top: 0px;
+	     height: 30px;
+	     white-space:nowrap;
+	     min-width: 400px;
+	     list-style: none;
+	     margin: 0;
+	     padding: 0;
+	     float: right;
+	  }
+	
+	  #navItems li {
+	    float: right;
+	    font-family: Verdana, Verdana, Geneva, sans-serif;
+	    text-align: right;
+	    font-size: 0.8em;
+	    padding: 4px 2% 0px 2%;
+	  }
+	  
+	  div#homeContent {
+	  
+	    text-align: left;
+		width: 100%;
+		top: 180px;
+		padding-bottom: 100px;
+	}
+	
+	div#dividerContainer {
+	
+	    width: 0px;
+	}
+	
+	div#divider {
+	
+	    height: 0px;
+	    width: 0px;
+	    visibility: hidden
+	}
+	
+	div#contentLeft {
+		
+		width: 100%; 
+	}
+	
+	div#contentRight {
+		
+		width: 100%;
+	}
+	
+	div.intro {
+	
+	  font-family: Verdana, Verdana, Geneva, sans-serif;
+	  font-weight: normal;
+	  font-size: 1em;
+	  margin-top: 4px;
+	  margin-left: 4px;
+	}
+	
+	.intro li {
+	  font-family: Verdana, Verdana, Geneva, sans-serif;
+	  font-weight: normal;
+	  font-size: 0.8em;
+	  list-style-type:square
+	}
+	
+	.intro p {
+	
+	  font-family: Arial, Geneva, sans-serif;
+	  font-weight: normal;
+	  font-size: 0.8em;
+	  margin-left: 4px;
+	  margin-top: 4px;
+	  width: 80%;
+	}
+	
+	.item h2 {
+
+	   font-family: Verdana, Verdana, Geneva, sans-serif;
+	   font-weight: normal;
+	   font-size: 1em;
+	   margin-top: 30px;
+	}
+
+  
+}
